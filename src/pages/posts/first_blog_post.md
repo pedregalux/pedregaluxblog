@@ -1,163 +1,20 @@
 ---
 layout: ../../layouts/post.astro
-title: "This is the first post of my new Astro blog."
-pubDate: 2023-12-23
-description: "This is the first post of my new Astro blog."
-author: "nicdun"
-excerpt: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+title: "Nuevo blog, nuevo framework"
+pubDate: 2024-04-05
+description: "Cómo llegué a Astro"
+author: "pedregalux"
+excerpt: Esto es nerd, pero nerd. Hace muchos años, casi desde que salió, usé Wordpress en un blog. De hecho hice experimentos antes con algo que se llamaba BBLog o algo así...
 image:
   src:
   alt:
-tags: ["tag1", "tag2", "tag3"]
+tags: ["astro", "frameworks", "wordpress"]
 ---
 
-This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Esto es nerd, pero nerd. Hace muchos años, casi desde que salió, usé Wordpress en un blog. De hecho hice experimentos antes con algo que se llamaba BBLog o algo así. Todo era PHP, MySql, consiguiendo algún hosting gratis cuando la velocidad no era un tema. No existía YouTube, no teníamos redes sociales. Todavía no aparecía ni Fotolog ni Facebook. Siempre me asombro cuando recuerdo esa época y hago un recuento de como en tan pocos años todo se fue literalmente a la mierda y nos llenamos de servicios y productos monopólicos que son propiedad de un puñado de idiotas libertarios de San Francisco. No se me malentienda, no estoy en contra de la tecnología, pero luego volveré a ese tema.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Wordpress, un mal necesario. Un tanque a pedales, pero que ha permitido a miles de personas poder escribir, trabajar, etc. Mantenerse todos estos años es un muy buen síntoma. Si vas a empezar un blog o sitio web y no tienes plata ni tiempo, usa Wordpress. Si quieres empezar un camino de aprendizaje que te lleve a ser más independiente en el desarrollo, empieza con Wordpress. Luego tienes todo el tiempo para ver videos y leer.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Después de un tiempo si tu opción fue aprender, puede que te des cuenta que te conviene algo como Github Pages, es decir, sitios web planos planitos, sin bases de datos, sólo archivos de texto (y multimedia) que interactúan entre si. Este tipo de estructura generalmente es suficiente para el 99 por ciento de los blogs que ves todo el tiempo. Es la opción más liviana y segura, entretenida también si quieres aprender, sino... usa Wordpress.
 
-## Headings
-
-# H1 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-## H2 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-### H3 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-#### H4 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-##### H5 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-###### H6 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-## Emphasis
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-## Horizontal separator
-
-This is a horizontal separator:
-
----
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
----
-
-## List types
-
-### Ordered list
-
-1. List item 1
-2. List item 2
-   1. Nested list item A
-   2. Nested list item B
-3. List item 3
-
-### Unordered list
-
-- List item
-- List item
-  - Nested list item
-  - Nested list item
-    - Double nested list item
-    - Double nested list item
-- List item
-
-### Mixed list
-
-1. First ordered list item
-2. Another item
-   - Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-4. And another item.
-
-## Links
-
-[Inline-style link](https://www.google.com)
-
-[Inline-style link with title](https://www.google.com "Google's Homepage")
-
-[Reference-style link][arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
-
-Images included in _\_posts_ folder are lazy loaded.
-
-Inline-style:
-![alt text](/src/images/random.jpeg "Logo Title Text 1")
-
-## Table
-
-| Tables        |      Are      | Cool |
-| ------------- | :-----------: | ---: |
-| col 3 is      | right-aligned | 1600 |
-| col 2 is      |   centered    |   12 |
-| zebra stripes |   are neat    |    1 |
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
-## Syntax highlight
-
-```ts title="astro.config.mjs" showLineNumbers {1-2,5-6}
-import { defineConfig } from "astro/config";
-import vercelStatic from "@astrojs/vercel/static";
-
-export default defineConfig({
-  output: "static",
-  adapter: vercelStatic({
-    webAnalytics: {
-      enabled: true,
-    },
-  }),
-});
-```
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-```python showLineNumbers
-s = "Python syntax highlighting"
-print s
-```
+Para sitios planos hay varias posibilidades. Yo probé con Jekyll que es el generador de sitios estáticos más popular de Ruby y también con Hugo, algo parecido pero en Go. La idea de fondo de estos frameworks es que para desarrollar el blog tienes que tener instalados los lenguajes, Go o Ruby y los programas necesarios. Luego lo que se sube al servidor para publicar es una especie de compilado (por ponerle un nombre) liviano y optimizado. Como los repositorios de código se pueden alojar en Github o Gitlab, luego cada actualización es sólo un push nuevo. Óptimo. Es una muy muy buena idea y se tomó el mundo. Siempre pasa algo con las buenas ideas en programación y es que cuando una estructura o estrategia está bien hecha, bien armada, con lógica clara, etc. la gente la usa. La gente del desarrollo tiende a respaldar las buenas ideas. Una buena idea que tiene fallas se puede solucionar, pero una mala idea que anda bien está destinada a morir. Cual idea es buena o mala es algo que se adquiere única y exclusivamente entendiendo los códigos, no leyendo posts, foros y viendo videos. Por eso hay tanto burócrata tomando malas desiciones de desarrollo.
